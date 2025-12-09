@@ -3,17 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Getaway Grove</title>
-     <link rel="stylesheet" href="./css/style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>fast food paradice - las mejores comidas rapidas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <!--encabezado de pie de pagina-->
+    <!------encabezado de pie de pagina--->
     <header>
-        <nav class="navtur">
-
+        <nav class="navbar">
+            <div class="logo">
+            <h1>🍃 Getaway Grove: </h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">inicio</a></li>
+                <li><a href="#menu">menú</a></li>
+                <li><a href="#promociones">promociones</a></li>
+                <li><a href="#contacto">contacto</a></li>
+            </ul>
         </nav>
     </header>
-    
+    <!---seccion del hero-->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2> bienvenido a Getaway Grove: </h2>
+            <p>ven con tu parche de amigos y disfruta de una calida experiencia</p>
+            <button class="cta-button">sumergirse</button>
+        </div>
+    </section>
+    <!--seccion menu-->
+    <section id="menu" class="menu-section">
+        <h2 class="section-title">Nuestro Menú</h2>
+        <div class="menu-grid">
+            <!-- combo 1-->
+            <div class="menu-card">
+                <img src="https://media.admagazine.com/photos/65fde3557b23186df6b642a7/16:9/w_2000,h_1125,c_limit/Caba%C3%B1as%20cerca%20de%20CDMX%20para%20disfrutar%20de%20la%20naturaleza.jpg" alt="hamburguesa deliciosa">
+                <div class="card-content">
+                    <h3>combo clasic</h3>
+                    <p>cabaña, almuerzo y cena </p>
+                    <span class="price">$120.000</span>
+                    <button class="order-btn">agendar</button>
+                </div>
+            </div>
+                 <!--combo 2-->
+            <div class="menu-card">
+                <img src="https://images.squarespace-cdn.com/content/v1/61e8e41f6a75795721c5c845/3fdd2926-5395-4c65-9869-7ef2add2acb0/DSC0050122.jpg" alt="pizza deliciosa">
+                <div class="card-content">
+                    <h3>combo vip</h3>
+                    <p> cabaña, todas las comidas, acceso a piscina</p>
+                    <span class="price">$260.000</span>
+                    <button class="order-btn">agendar</button>
+                </div>
+            </div>
+                <!--combo gold-->
+                      <div class="menu-card">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/374801588.jpg?k=ea3a44606b22bc9c24b151127fc8f3d0381d0cc7050c0a1dd8c9c242e0529c0c&o=" alt="hot dog delicioso">
+                     <div class="card-content">
+                        <h3>combo gold</h3>
+                        <p>todos los servicios existentes incluidos</p>
+                        <span class="price">$500.000</span>
+                        <button class="order-btn">agendar</button>
+                    </div>
+                </div>               
+    </section>
+    <!--seccion de promociones-->
+    <section id="promociones" class="promo-section">
+        <h2 class="section-title">promociones Especiales de comida</h2>
+        <div class="promo-container">
+            <div class="promo-card">
+                <h3>🎉 combo familiar</h3>
+                <p>2 hmaburguesas + pizza grande + papas fritas + 4 bebidas</p>
+                <span class="promo-price">$50.000</span>
+            </div>
+            
+            <div class="promo-card">
+                <h3>🍕 pizza familiar</h3>
+                <p>2*1 en todas las presentaciones</p>
+                <span class="promo-price">!oferta limitada!</span>
+           </div>
+        </div>
+    </section>
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>contactenos</h3>
+                <p>📞 telefono: (57)3223201720</p>
+                <p>📧 Email: johanfelipecastillo8@gmail.com </p>
+                <p>🛖 Dirección: vereda el peñon</p>
+            </div>
+            <div class="footer-content">
+            <div class="footer-section">
+                <h3>Horarios</h3>
+                <p>Lunes a Viernes: 6:00 am a 10:00 pm</p>
+                <p>sabados y domingos: 6:00 am a 12:00 pm </p>
+            </div> 
+
+            </div>
+
+            <div class="footer-section">
+                <h3>Siguenos</h3>
+                <p><i class="fa-brands fa-facebook"></i> facebook</p>
+                <p><i class="fa-brands fa-instagram"></i> instagram</p>
+                <p><i class="fa-brands fa-twitter"></i> twitter</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+        <p>&copy: 2025 fast food paradice. todos los derechos reservados </p>
+        </div>
+
+    </footer> 
 </body>
 </html>
